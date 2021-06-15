@@ -4,8 +4,8 @@ const fetch = require("node-fetch");
 //Get ready the db
 
 db.loadDatabase((err) => {
-  console.log("NeDB is successfully working");
   if (err) throw err;
+  console.log("NeDB is successfully working");
 });
 
 // Get the api data and save it into the local database
